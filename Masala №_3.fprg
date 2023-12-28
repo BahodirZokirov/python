@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-23 06:11:00 "/>
+        <attribute name="created" value="VVNFUjtERVNLVE9QLTVFNzJETzg7MjAyMy0wOC0yMzsiMDU6NDY6MjYgIjsyNTMw"/>
+        <attribute name="edited" value="VVNFUjtERVNLVE9QLTVFNzJETzg7MjAyMy0wOC0yMzsiMDY6MTE6MDAgIjs1OzI2Mjc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;Kvadrat tomonini kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="b" expression="4*a"/>
+            <assign variable="c" expression="a^2"/>
+            <assign variable="d" expression="b*c"/>
+            <output expression="&quot;Ushbu kvadrat perimetri &quot; &amp;b&amp; &quot; ga teng.&quot;" newline="True"/>
+            <output expression="&quot;Ushbu kvadrat yuzi &quot; &amp;c&amp; &quot; ga teng.&quot;" newline="True"/>
+            <output expression="&quot;Ushbu kvadrat perimetri va yuzasining bir biriga ko'paytmasi &quot; &amp;d&amp; &quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
